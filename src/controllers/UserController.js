@@ -1,7 +1,6 @@
 const UserModel = require('../models/UserModel');
 
 const listAllUsers = async (req, res) => {
-  let count = 0;
   try {
     // const usuarios = await UserModel.find({});
     // res.send({
@@ -10,7 +9,7 @@ const listAllUsers = async (req, res) => {
     // });
     res.send({
       message: 'Success',
-      data: `Usuário ${count + 1}`,
+      data: `Usuário`,
     });
   } catch (error) {
     res.send({
