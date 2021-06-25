@@ -9,4 +9,4 @@ app.listen(port, () => {
   console.log(`🚀 Servidor Rodando em http://localhost:${port}`);
 });
 //
-// require("./database/connection")();
+require('./database/connection')();
